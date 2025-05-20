@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Маймур Анжеліка | Особистий сайт</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #4a55a7;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      background-color: #333;
+      padding: 0.8rem;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #a9c1ff;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+    }
+
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .profile-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .profile-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    .profile-info {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    h2 {
+      color: #4a55a7;
+      border-bottom: 2px solid #a9c1ff;
+      padding-bottom: 0.5rem;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      margin-top: 2rem;
+    }
+
+    .interests {
+      margin-top: 1.5rem;
+    }
+
+    .interests h3 {
+      color: #4a55a7;
+    }
+
+    .contact-section {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin-top: 2rem;
+    }
+
+    .contact-section a {
+      color: #4a55a7;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-section a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Маймур Анжеліка Володимирівна</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Головна</a></li>
+      <li><a href="#">Про мене</a></li>
+      <li><a href="#">Контакти</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="about-section">
+      <div class="profile-image">
+        <!-- Використовуйте відносний шлях або завантажте фото в інтернет -->
+        <img src="me.jpg" alt="Фото Маймур Анжеліки">
+        <!-- Або можна використати абсолютний шлях: -->
+        <!-- <img src="C:/Users/Mycom/OneDrive/Рабочий стол/Практика/me.jpg" alt="Фото Маймур Анжеліки"> -->
+      </div>
+
+      <div class="profile-info">
+        <h2>Про мене</h2>
+        <p>Вітаю! Я Маймур Анжеліка Володимирівна — студентка 3 курсу групи КН-22-1 Українського державного університету науки і технологій "ННІ ПДАБА".</p>
+        
+        <p>Наразі я здобуваю освіту в галузі комп'ютерних наук, де поглиблено вивчаю різноманітні аспекти програмування та інформаційних технологій. Моє навчання дозволяє мені розвивати як технічні навички, так і креативне мислення.</p>
+        
+        <div class="interests">
+          <h3>Мої інтереси:</h3>
+          <ul>
+            <li>Веб-дизайн та розробка</li>
+            <li>Створення інтерактивних інтерфейсів</li>
+            <li>Вивчення сучасних фреймворків</li>
+            <li>UX/UI дизайн</li>
+          </ul>
+        </div>
+        
+        <p>Я постійно працюю над вдосконаленням своїх навичок та прагну розвиватися у сфері веб-технологій. Моя мета — створювати функціональні та естетично привабливі веб-сайти, які надають користувачам позитивний досвід взаємодії.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <h2>Контакти</h2>
+      <p>Телефон: <a href="tel:+380508241520">+380508241520</a></p>
+      <p>Email: <a href="mailto:anzhelikamaimur@gmail.com">anzhelikamaimur@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Маймур Анжеліка Володимирівна</p>
+  </footer>
+</body>
+</html>
